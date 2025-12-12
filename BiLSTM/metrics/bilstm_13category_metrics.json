@@ -1,0 +1,246 @@
+{
+  "per_category": {
+    "Payment_Terms": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Confidentiality": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Ip_Ownership_Assignment": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Non_Compete": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Other": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Termination_For_Cause": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Insurance": {
+      "matched_name": "Insurance",
+      "count": 102,
+      "em": 0.0,
+      "f1": 0.5236010466988729,
+      "precision": 0.5236010466988729,
+      "recall": 0.5236010466988729,
+      "answerability": 31.372549019607842,
+      "auc": 31.372549019607842
+    },
+    "Agreement_Date": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Audit_Rights": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Parties": {
+      "matched_name": "Parties",
+      "count": 102,
+      "em": 0.0,
+      "f1": 7.31499673347586,
+      "precision": 7.31499673347586,
+      "recall": 7.31499673347586,
+      "answerability": 100.0,
+      "auc": 100.0
+    },
+    "Cap_On_Liability": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Expiration_Date": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    },
+    "Governing_Law": {
+      "matched_name": null,
+      "count": 0,
+      "em": 0.0,
+      "f1": 0.0,
+      "precision": 0.0,
+      "recall": 0.0,
+      "answerability": 0.0,
+      "auc": 0.0
+    }
+  },
+  "uniformed_performance": {
+    "macro_averaged": {
+      "em": 0.0,
+      "f1": 3.9192988900873664,
+      "precision": 3.9192988900873664,
+      "recall": 3.9192988900873664,
+      "answerability": 65.68627450980392,
+      "auc": 65.68627450980392
+    },
+    "weighted_averaged": {
+      "em": 0.0,
+      "f1": 3.9192988900873664,
+      "precision": 3.9192988900873664,
+      "recall": 3.9192988900873664,
+      "answerability": 65.68627450980392,
+      "auc": 65.68627450980392
+    },
+    "std_deviation": {
+      "em": 0.0,
+      "f1": 3.3956978433884935,
+      "precision": 3.3956978433884935,
+      "recall": 3.3956978433884935,
+      "answerability": 34.31372549019608,
+      "auc": 34.31372549019608
+    },
+    "ranges": {
+      "em": {
+        "min": 0.0,
+        "max": 0.0
+      },
+      "f1": {
+        "min": 0.5236010466988729,
+        "max": 7.31499673347586
+      },
+      "precision": {
+        "min": 0.5236010466988729,
+        "max": 7.31499673347586
+      },
+      "recall": {
+        "min": 0.5236010466988729,
+        "max": 7.31499673347586
+      },
+      "answerability": {
+        "min": 31.372549019607842,
+        "max": 100.0
+      },
+      "auc": {
+        "min": 31.372549019607842,
+        "max": 100.0
+      }
+    },
+    "n_categories": 2,
+    "total_examples": 204
+  },
+  "rankings": {
+    "best_categories": [
+      [
+        "Parties",
+        {
+          "matched_name": "Parties",
+          "count": 102,
+          "em": 0.0,
+          "f1": 7.31499673347586,
+          "precision": 7.31499673347586,
+          "recall": 7.31499673347586,
+          "answerability": 100.0,
+          "auc": 100.0
+        }
+      ],
+      [
+        "Insurance",
+        {
+          "matched_name": "Insurance",
+          "count": 102,
+          "em": 0.0,
+          "f1": 0.5236010466988729,
+          "precision": 0.5236010466988729,
+          "recall": 0.5236010466988729,
+          "answerability": 31.372549019607842,
+          "auc": 31.372549019607842
+        }
+      ]
+    ],
+    "worst_categories": [
+      [
+        "Parties",
+        {
+          "matched_name": "Parties",
+          "count": 102,
+          "em": 0.0,
+          "f1": 7.31499673347586,
+          "precision": 7.31499673347586,
+          "recall": 7.31499673347586,
+          "answerability": 100.0,
+          "auc": 100.0
+        }
+      ],
+      [
+        "Insurance",
+        {
+          "matched_name": "Insurance",
+          "count": 102,
+          "em": 0.0,
+          "f1": 0.5236010466988729,
+          "precision": 0.5236010466988729,
+          "recall": 0.5236010466988729,
+          "answerability": 31.372549019607842,
+          "auc": 31.372549019607842
+        }
+      ]
+    ]
+  }
+}
